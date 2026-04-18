@@ -1,0 +1,30 @@
+# Credentials & secrets (contain real DB passwords, API keys, admin login)
+config/database.php
+config/security.php
+config/news_ticker/proxy.php
+config/googleplacesapi_custom/google_places.js
+login.txt
+
+# Logs & debug output (may contain PII/request data)
+*.log
+error_log
+ruko_debug.log
+api/log.txt
+log/
+log/*
+
+# Runtime state
+tmp/
+cache/
+backups/
+
+# User-uploaded content
+uploads/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/

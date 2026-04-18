@@ -1,0 +1,37 @@
+//a[title="Login"]{
+//	display:none;
+//}
+
+.page-title{
+  font-weight: bold;
+  color: black;
+}
+<style>
+  ('ul.sub-menu a.menu-extipagesview3') {
+    display: none;
+  }
+</style>
+<style>
+#account_form > .form-body > .tab-content > #form_tab_1 > div:nth-child(7),
+#account_form > .form-body > .tab-content > #form_tab_1 > div:nth-child(8),
+#account_form > .form-body > .tab-content > #form_tab_1 > div:nth-child(9)
+{display: none;}
+</style>
+
+/* For Google places API at CRM business name entry suggestions
+
+/* Ensure autocomplete dropdown floats above modal backdrop */
+.pac-container {
+    z-index: 10600 !important;
+    background: white !important;
+    border: 1px solid #ccc !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+    max-height: 300px !important;
+    overflow-y: auto !important;
+    font-size: 14px !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+
+/* Do NOT touch .modal-backdrop or .modal-scrollable */
